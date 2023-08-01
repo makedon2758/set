@@ -1457,11 +1457,6 @@ body {
 }
 
 @media (max-width: 26.875em) {
-  .howitworks__body-text1 {
-    left: 68%;
-    top: 10%;
-  }
-
   .howitworks__body-text2 {
     top: 33%;
   }
