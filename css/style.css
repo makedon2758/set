@@ -1018,7 +1018,7 @@ body {
   }
 
   .guestion {
-    padding-top: 8.125rem;
+    padding-top: 3.125rem;
   }
 
   .aplication {
@@ -1530,8 +1530,8 @@ body {
   }
 
   .howitworks__body-text4 {
-    left: 0;
-    bottom: 18px;
+    left: 3%;
+    bottom: 18%;
   }
 
   .body-guestion__titl::after {
@@ -1716,15 +1716,15 @@ body {
     }
 }
 
-@supports (padding-top: clamp( 8.125rem , 6.816588785rem  +  6.5420560748vw , 12.5rem )) {
+@supports (padding-top: clamp( 3.125rem , 0.3212616822rem  +  14.0186915888vw , 12.5rem )) {
     .guestion {
-      padding-top: clamp( 8.125rem , 6.816588785rem  +  6.5420560748vw , 12.5rem );
+      padding-top: clamp( 3.125rem , 0.3212616822rem  +  14.0186915888vw , 12.5rem );
     }
 }
 
-@supports not (padding-top: clamp( 8.125rem , 6.816588785rem  +  6.5420560748vw , 12.5rem )) {
+@supports not (padding-top: clamp( 3.125rem , 0.3212616822rem  +  14.0186915888vw , 12.5rem )) {
     .guestion {
-      padding-top: calc(8.125rem + 4.375 * (100vw - 20rem) / 66.875);
+      padding-top: calc(3.125rem + 9.375 * (100vw - 20rem) / 66.875);
     }
 }
 
