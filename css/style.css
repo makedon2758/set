@@ -1529,6 +1529,11 @@ body {
     top: 55%;
   }
 
+  .howitworks__body-text4 {
+    left: 0;
+    bottom: 18px;
+  }
+
   .body-guestion__titl::after {
     background-image: url("../img/questions/svgexportmob.svg");
     background-position: 0 50%;
